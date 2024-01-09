@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h3>Company Metrics</h3>
+    <div class="cards upper">
+
+        <div class="card">
+            <p class="green-text">
+                $406,411.29
+            </p>
+            <p>
+                Total Revenue
+            </p>
+        </div>
+        <div class="card">
+            <p>
+                $620
+            </p>
+            <p>
+                Total Jobs Avg
+            </p>
+        </div>
+        <div class="card">
+            <p>
+                655
+            </p>
+            <p>
+                Ticket Created
+            </p>
+        </div>
+        <div class="card">
+            <p>
+                735
+            </p>
+            <p>
+                Ticket Scheduled
+            </p>
+        </div>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <p class="red-text">
+                $110,448.8
+            </p>
+            <p>
+                Outstanding Amount
+            </p>
+        </div>
+        <div class="card">
+            <p>
+                105
+            </p>
+            <p>
+                Memberships Sold
+            </p>
+        </div>
+        <div class="card">
+            <p>
+                436
+            </p>
+            <p>
+                Jobs Completed
+            </p>
+        </div>
+        <div class="card">
+            <p>
+                65
+            </p>
+            <p>
+                Total Canceled
+            </p>
+        </div>
+    </div>
+
+  <div class="master">
+    <!-- Chart component -->
+    <div class="chart-container">
+    <h3>Revenue by Job Location</h3>
+      <canvas id="myChart"></canvas>
+    </div>
+
+     <!-- Pie Chart component -->
+  <div class="chart-container">
+    <h3>Revenue by Job Type</h3>
+    <canvas id="mychart2"></canvas>
+  </div>
+</div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Link to Chart.js library -->
+    <script src="script2.js"></script> <!-- Link to your myscript.js file -->
+</body>
+</html>
